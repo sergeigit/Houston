@@ -1,0 +1,26 @@
+body {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1, h2, h3 {
+	font-family: sans-serif;
+	margin-top: 1.5em;
+}
+h1 {
+	font-size: 32px;
+}
+table, th, td {
+	   border: 1px solid black;
+}
+figure {
+	float: right;
+	margin: 0px 0px 0px 40px;
+	max-width: 250px; /*сделал, чтобы подписи к фоткам не вылазили вправо, а были строго под фотками и переносились*/
+}
+figcaption {
+	font-style: italic;
+}
+.hous_img {
+	margin-top: -140px;
+}
